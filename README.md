@@ -1,5 +1,5 @@
 
-# 💼 Job Offer Scam Detection
+#  Job Offer Scam Detection
 
 This project addresses the growing threat of job scam emails by developing a machine learning-based email classification system. Scammers use increasingly sophisticated tactics to impersonate legitimate employers, posing serious risks such as identity theft, financial loss, and emotional distress.
 
@@ -7,7 +7,7 @@ By leveraging natural language processing, feature engineering, and multiple mac
 
 ---
 
-## 🛑 Problem Statement
+##  Problem Statement
 
 Job scam emails often mimic real offers, making them hard to detect using traditional spam filters. This project aims to bridge that gap by:
 
@@ -17,7 +17,7 @@ Job scam emails often mimic real offers, making them hard to detect using tradit
 
 ---
 
-## ✨ Features
+##  Features
 
 - Hybrid feature extraction: text, sender behavior, urgency terms, scam keywords, etc.
 - Custom metadata indicators: non-HTTPS links, bait phrases, identity info requests.
@@ -27,7 +27,7 @@ Job scam emails often mimic real offers, making them hard to detect using tradit
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 ├── complete_model_workflow/
@@ -43,7 +43,7 @@ Job scam emails often mimic real offers, making them hard to detect using tradit
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **email_job_scam_cleaned.csv** – Preprocessed and labeled dataset.
 - Sources:
@@ -55,7 +55,7 @@ Job scam emails often mimic real offers, making them hard to detect using tradit
 
 ---
 
-## 🤖 Models Implemented
+##  Models Implemented
 
 - Random Forest (🏆 Best Performer – Accuracy: 96.7%)
 - Decision Tree
@@ -70,7 +70,7 @@ Model evaluation metrics: Accuracy, F1, Precision, Recall, MCC, ROC-AUC
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Languages**: Python 3.10
 - **Frameworks & Libraries**:  
@@ -80,7 +80,7 @@ Model evaluation metrics: Accuracy, F1, Precision, Recall, MCC, ROC-AUC
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install dependencies:
    ```bash
@@ -97,7 +97,7 @@ Model evaluation metrics: Accuracy, F1, Precision, Recall, MCC, ROC-AUC
 
 ---
 
-## 📈 Results
+##  Results
 
 | Model             | Accuracy | Precision | Recall | F1 Score |
 |------------------|----------|-----------|--------|----------|
@@ -110,7 +110,7 @@ SHAP analysis confirmed key scam indicators:
 
 ---
 
-## 🌍 Sustainability Impact
+##  Sustainability Impact
 
 Aligned with [UN Sustainable Development Goals (SDG)](https://sdgs.un.org/goals):
 
@@ -122,7 +122,7 @@ Prevents economic and emotional exploitation of vulnerable job seekers.
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Integration with email clients as a browser plugin (Gmail, Outlook)
 - Real-time stream processing for inboxes
@@ -132,7 +132,7 @@ Prevents economic and emotional exploitation of vulnerable job seekers.
 
 ---
 
-## 🤝 Contributors
+##  Contributors
 
 - **Sreenidhi Hayagreevan** – Data Syntesis, Random Forest modeling, documentation  
 - **Shivani Beri** – Feature engineering, SVM & KNN models  
@@ -142,7 +142,7 @@ Prevents economic and emotional exploitation of vulnerable job seekers.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 This project was developed as part of the DATA245 – Machine Learning course at San Jose State University.
 
